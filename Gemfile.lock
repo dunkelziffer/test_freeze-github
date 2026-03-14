@@ -216,6 +216,13 @@ GEM
       racc (~> 1.4)
     ostruct (0.6.3)
     parallel (1.27.0)
+    parklife (0.8.1)
+      nokogiri
+      rack-test
+      thor
+    parklife-rails (0.3.0)
+      parklife (>= 0.8.0.beta1)
+      rails
     parser (3.3.10.2)
       ast (~> 2.4.1)
       racc
@@ -410,6 +417,7 @@ DEPENDENCIES
   kamal
   kramdown
   kramdown-parser-gfm
+  parklife-rails
   propshaft
   puma (>= 5.0)
   rails (~> 8.1.2)
@@ -510,6 +518,8 @@ CHECKSUMS
   nokogiri (1.19.1-x86_64-linux-musl) sha256=4267f38ad4fc7e52a2e7ee28ed494e8f9d8eb4f4b3320901d55981c7b995fc23
   ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
   parallel (1.27.0) sha256=4ac151e1806b755fb4e2dc2332cbf0e54f2e24ba821ff2d3dcf86bf6dc4ae130
+  parklife (0.8.1) sha256=6399c5e05161848d01a2f71532b53d0dcfb6282a10cf3f317eeb7b2e3a18175d
+  parklife-rails (0.3.0) sha256=ab7df25b8f6c70dd8dd98b845a8e84dbc93c92b3dbe26204ff58f47d641bac45
   parser (3.3.10.2) sha256=6f60c84aa4bdcedb6d1a2434b738fe8a8136807b6adc8f7f53b97da9bc4e9357
   pp (0.6.3) sha256=2951d514450b93ccfeb1df7d021cae0da16e0a7f95ee1e2273719669d0ab9df6
   prettyprint (0.2.0) sha256=2bc9e15581a94742064a3cc8b0fb9d45aae3d03a1baa6ef80922627a0766f193

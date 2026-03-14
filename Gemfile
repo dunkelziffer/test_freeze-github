@@ -42,6 +42,9 @@ gem "image_processing", "~> 1.2"
 
 gem "frozen_rails" # , path: "../frozen_rails"
 
+# frozen:ssg
+gem "parklife-rails"
+
 # frozen:md
 gem "decant"
 gem "kramdown"
